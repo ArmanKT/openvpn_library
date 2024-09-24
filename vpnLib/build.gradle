@@ -2,6 +2,7 @@ apply plugin: 'com.android.library'
 group = 'com.github.armankt'
 
 android {
+    namespace 'com.github.armankt.vpnlib'
     compileSdk 34
     defaultConfig {
         minSdkVersion 21
